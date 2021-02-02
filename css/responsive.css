@@ -1,0 +1,57 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+     
+ .inner-item {
+    margin-top: 40px;
+}
+.inner-item .item-img img {
+    width: 455px;
+}
+.inner-item .item-text h4 {
+    text-align: left;
+}
+.inner-item .item-text p {
+    text-align: left;
+}
+.footer-icon {
+    text-align: center;
+    margin-left: -24px;
+    margin-top: 32px;
+}
+.footer-text h2{
+    margin-left: 20px;
+}
+.footer-text p {
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 26px;
+}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+ .inner-item .item-img img {
+    width: 514px;
+}
+
+ 
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+  
+}
